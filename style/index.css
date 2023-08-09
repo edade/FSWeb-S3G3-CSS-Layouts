@@ -65,15 +65,16 @@ h1 {
 }
 .footer-container {
   background-color: rgb(170, 148, 190);
-  height: 100px;
-}
-.footer-item {
+  height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer-item {
   text-decoration: none;
-  color: blueviolet;
   padding: 15px;
   border-radius: 10px;
-  border: 3px solid white;
+  border: 3px solid blueviolet;
+  background-color: blueviolet;
+  color: white;
 }

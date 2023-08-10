@@ -85,6 +85,8 @@ nav {
 @media (min-width: 801px) {
   .main-container {
     width: 90%;
+    background-position: 100% 100%;
+    background-size: cover;
   }
 }
 
@@ -92,6 +94,8 @@ nav {
   .main-container {
     width: 90%;
     height: 80vw;
+    background-position: 100% 100%;
+    background-size: cover;
   }
 }
 
@@ -104,8 +108,14 @@ nav {
     width: 90%;
   }
   .main-container {
-    width: 90%;
+    width: 80%;
     height: 80vw;
+    background-position: 100% 100%;
+    background-size: cover;
+  }
+  .section-container {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 
@@ -132,6 +142,8 @@ nav {
     width: 90%;
     height: 25em;
     font-size: 80%;
+    background-position: 100% 100%;
+    background-size: cover;
   }
   .section-container {
     display: flex;

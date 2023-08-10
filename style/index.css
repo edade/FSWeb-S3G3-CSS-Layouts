@@ -91,6 +91,7 @@ nav {
 @media (max-width: 800px) {
   .main-container {
     width: 90%;
+    height: 80vw;
   }
 }
 
@@ -104,6 +105,7 @@ nav {
   }
   .main-container {
     width: 90%;
+    height: 80vw;
   }
 }
 
@@ -128,6 +130,15 @@ nav {
   }
   .main-container {
     width: 90%;
-    height: 90%;
+    height: 25em;
+    font-size: 80%;
+  }
+  .section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  h3 {
+    margin-top: 0%;
   }
 }
